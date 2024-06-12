@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    align-items: center;
+    margin: -.5rem -3.4rem;
+    position: relative;
+    margin-top: -7rem;
+}
+.f-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+width: 100%;
+margin-top: 4rem;
+gap: 4rem;
+color: white;
+}
+.f-content>span{
+    font-weight: bold;
+}
+.f-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem ;
+}
+@media screen and (max-width:480px) {
+    .footer{
+        margin-top: 200px;
+    }
+    .f-content{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        transform: scale(.7);
+    }
+}
